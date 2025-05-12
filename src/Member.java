@@ -1,8 +1,5 @@
 import java.time.LocalDate;
-<<<<<<< HEAD
 import java.time.LocalDateTime;
-=======
->>>>>>> 9a3c5a35a3564a396f66f14fa811e906bfc01ca6
 
 public class Member {
 
@@ -16,12 +13,10 @@ public class Member {
     private String parentsNumber;
     private String parentsName;
 
-<<<<<<< HEAD
     public Member(int memberID, String name, LocalDate dateOfBirth, String memberType, String swimmerType,
                   int ageGroup, String parentsNumber, String parentsName , int teamID) {
-=======
+
     public Member(int memberID, String name, LocalDate dateOfBirth, String memberType, String swimmerType, int teamID, int age, String parentsNumber, String parentsName) {
->>>>>>> 9a3c5a35a3564a396f66f14fa811e906bfc01ca6
         this.memberID = memberID;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -31,11 +26,9 @@ public class Member {
         this.teamID = teamID;
         this.parentsNumber = parentsNumber;
         this.parentsName = parentsName;
-<<<<<<< HEAD
+
         this.dateOfBirth = dateOfBirth;
         this.teamID = teamID;
-=======
->>>>>>> 9a3c5a35a3564a396f66f14fa811e906bfc01ca6
     }
 
     public Member(int memberID, String name, LocalDate dateOfBirth, String memberType, String swimmerType, int teamID, int age) {
@@ -86,10 +79,10 @@ public class Member {
         return swimmerType;
     }
 
-<<<<<<< HEAD
+
     public int getteamID() {
         return teamID;
-=======
+
     @Override
     public String toString() {
         // TODO: lav tabel layout
@@ -104,7 +97,6 @@ public class Member {
                 ", parentsNumber=" + parentsNumber +
                 ", parentsName='" + parentsName + '\'' +
                 '}';
->>>>>>> 9a3c5a35a3564a396f66f14fa811e906bfc01ca6
     }
 
 
@@ -127,4 +119,3 @@ public class Member {
         );
     }
 }
-
